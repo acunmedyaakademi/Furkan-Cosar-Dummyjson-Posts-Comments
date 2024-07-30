@@ -1,0 +1,91 @@
+/* CSS RESET */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* STYLE */
+body {
+    background-color: #667BC6;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 1100px;
+}
+
+#postLists {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #304463;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.post {
+    background-color: #7D8ABC;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+h2 {
+    color: #BBE9FF;
+    font-size: 28px;
+}
+
+p {
+    color: aliceblue;
+    font-size: 16px;
+    font-family: "Roboto Slab", serif;
+}
+
+ul li {
+    color: aliceblue;
+    list-style: none;
+    font-family: "Roboto Slab", serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.userNickName {
+    color: #BBE9FF;
+    font-size: 20px;
+}
+
+.userStat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+    margin-right: 10px;
+}
